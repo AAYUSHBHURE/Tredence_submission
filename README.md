@@ -1,7 +1,6 @@
 # Minimal Agent Workflow Engine
 
 This is a lightweight Python backend for defining and executing agentic workflows.
-It was built as part of the AI Engineering Internship assignment.
 
 ## Features
 - **Graph Engine**: Supports DAGs, Branching, and Looping.
@@ -61,7 +60,7 @@ ai_assignment/
 4. `improve`: Fixes issues and loops back to check complexity.
 5. EXITS when issues are resolved (or safety limit reached).
 
-## Improvements with More Time
+## Improvements 
 - **Persistent Storage**: Use SQLite/Postgres for run history.
 - **Async Nodes**: Fully async node execution for long LLM calls.
 - **Dynamic Registry**: API to register new Python functions dynamically (via code upload or plugin system).
